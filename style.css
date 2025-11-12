@@ -1,15 +1,34 @@
 body{
     margin:0px;
 }
+
+fondBlanc{
+    background:white;
+}
+
 header{
+
+    padding-top:25px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding-right:50px;
 
     h3{
            display:inline-block;
            color:white;
+           margin:0px;
     }
     nav{
+        display:flex;
+        gap:30px;
         a{
+            font-family:'Epilogue';
+            font-weight:600;
+            font-style:normal;
             color:white;
+            font-size:17px;
+            
         }
     }
 }
@@ -17,6 +36,7 @@ header{
 
     .fondNoir{
         background-color: black;
+
         h2{
             color:white;
         }
@@ -28,12 +48,101 @@ header{
         }
     
         .container{
-            .coteGaucheAvantImg{
+            width:800px;
+            margin:auto;
+
+            .divEtImgContainer{
+                display:flex;
+                justify-content:space-between;
+
+                
+                .coteGaucheAvantImg{
                 display:flex;
                 flex-direction:column;
-                 h3{
+
+                width:400px;
+                h3{
                     color:white;
                 }
+                h1{
+                    color:white;
+                }
+                p{
+                    color:white;
+                }
+
+                a.bouton{
+                    display:inline-block;
+                    padding:10px;
+                    background-color:white;
+                    width:160px;
+                    color:black;
+                    text-align:center;
+                    font-family:'Epilogue';
+                    font-weight:600;
+                    font-size:17px;
+                }
+
+                }
+            
+
             }
         }
     }
+
+.container{
+    width:800px;
+    margin:auto;
+
+    .servicesContainer{
+        display:flex;
+        flex-direction:column;
+    }
+}
+
+/*Centre les services*/
+.servicesContainer{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+        /*Aligne les services*/
+    .blocServicesContainer{
+        display:flex;
+        /*Engloble chaque service*/
+        .blocServices{
+            display:flex;
+            flex-direction:column;
+            align-items:center;
+            width:300px;
+            height:300px;
+            img{
+                width:30%
+            }
+            p{
+                width:250px;
+            }
+        }
+    }
+}
+
+.projetContainer{
+    display:flex;
+    flex:wrap;
+    gap:20px;
+}
+
+
+
+
+
+.logosContainer{
+
+    height:200px;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+
+
+}

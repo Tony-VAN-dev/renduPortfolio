@@ -1,9 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <!--Epilogue font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
     <title>Document</title>
 </head>
 <body>
@@ -11,19 +16,19 @@
         <header>
             <h3>Logo</h3>
             <nav>
-                <a href="Services"></a>
+                <a href="">Services</a>
                 <a href="">Réalisations</a>
                 <a href="">Contact</a>
             </nav>
         </header>
         <div class="container">
-            <div>
+            <div class="divEtImgContainer">
                 <!--Div et Image-->
                 <div class="coteGaucheAvantImg">
                     <h3>Branding | Image Making</h3>
                     <h1>Studio Aline<br>Graphik</h1>
                     <p>Des identités visuelles qui marquent les esprits</p>
-                    <a href="">Demander un Devis></a>
+                    <a href="" class="bouton">Demander un Devis</a>
                 </div>
                 <img src="HeaderImage.png" alt="">
                 
@@ -31,75 +36,109 @@
         </div>
     </section>
 
-    <section>
+    <!--Services-->
+    <section class="fondBlanc">
         <div class="container">
-            <h2></h2>
-            
-            <!--Blocs services-->
-            <div>
-                <img src="" alt="">
-                <h2></h2>
-                <p></p>
-            </div>
-            <div>
-                <img src="" alt="">
-                <h2></h2>
-                <p></p>
-            </div>
-            <div>
-                <img src="" alt="">
-                <h2></h2>
-                <p></p>
-            </div>
-            
+            <div class="servicesContainer">
+                <h2>Services</h2>
+                
+                <!--Blocs services-->
+                <div class="blocServicesContainer">
+
+                
+                    <div class="blocServices">
+                        <img src="Assets/Service/service1.png" alt="">
+                        <h2>Identité de marque</h2>
+                        <p>Création de logos, palettes
+                            de couleurs et chartes
+                            graphiques sur mesure pour
+                            donner une personnalité
+                            forte à votre marque.</p>
+                    </div>
+                    <div class="blocServices">
+                        <img src="Assets/Service/service2.png" alt="">
+                        <h2>Design d’interface</h2>
+                        <p>Conception d’interfaces web
+                            et mobiles esthétiques,
+                            intuitives et cohérentes
+                            avec votre univers visuel.</p>
+                    </div>
+                    <div class="blocServices">
+                        <img src="Assets/Service/service3.png" alt="">
+                        <h2>Visuels multisupport</h2>
+                        <p>Déclinaison de votre identité
+                            sur des supports imprimés
+                            ou numériques : cartes de
+                            visite, affiches, plaquettes,
+                            réseaux sociaux, etc.</p>
+                    </div>
+                </div>
+            </div>  
         </div>
     </section>
 
     <section class="fondNoir"> <!--logos de marque-->
-        <div><!--Container Logos-->
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
+        <div class="logosContainer"><!--Container Logos-->
+            <img src="Assets/logoMarque/google.png" alt="">
+            <img src="Assets/logoMarque/nike.png" alt="">
+            <img src="Assets/logoMarque/samsung.png" alt="">
+            <img src="Assets/logoMarque/apple.png" alt="">
+            <img src="Assets/logoMarque/addids.png" alt="">
         </div>
     </section>
 
     <section class="fondBlanc"> <!--Réalisations-->
-        <h2></h2>
-        <div>
-            <div>
-                <img src="" alt="">
-                <h3></h3>
-                <p></p>
-            </div>
-            <div>
-                <img src="" alt="">
-                <h3></h3>
-                <p></p>
-            </div>
-            <div>
-                <img src="" alt="">
-                <h3></h3>
-                <p></p>
-            </div>
-            <div>
-                <img src="" alt="">
-                <h3></h3>
-                <p></p>
-            </div>
-            <div>
-                <img src="" alt="">
-                <h3></h3>
-                <p></p>
-            </div>
-            <div>
-                <img src="" alt="">
-                <h3></h3>
-                <p></p>
+        <div class="container">
+            <h2>Réalisations</h2>
+            <div class="projetContainer"><!--Container de projets-->
+                <div>
+                    <img src="Assets/projets/projet6.png" alt="">
+                    <h3>Refonte de l’identité de Greenwave</h3>
+                    <p>Création d’un logo et d’une nouvelle charte graphique</p>
+                </div>
+                <div>
+                    <img src="Assets/projets/projet1.png" alt="">
+                    <h3>Application mobile Bloom</h3>
+                    <p>Design UX/UI pour une application de
+                    bien-être. Palette douce, typographies
+                    apaisantes et navigation fluide pour
+                    une expérience relaxante.
+                    </p>
+                </div>
+                <div>
+                    <img src="Assets/projets/projet3.png" alt="">
+                    <h3>Campagne visuelle Café du Coin</h3>
+                    <p>Création d’affiches et de visuels pour
+                        la communication d’un café de
+                        quartier. Une direction artistique
+                        vintage et conviviale.</p>
+                </div>
+                <div>
+                    <img src="Assets/projets/projet4.png" alt="">
+                    <h3>Interface e commerce Lumi</h3>
+                    <p>Refonte graphique complète d’un site
+                        e commerce dédié aux objets de
+                        décoration. Design épuré et mise en
+                        avant des produits.</p>
+                </div>
+                <div>
+                    <img src="Assets/projets/projet5.png" alt="">
+                    <h3>Affiches culturelles Festival Éclats d’Art</h3>
+                    <p>Conception d’une série d’affiches pour
+                        un festival pluridisciplinaire. Un travail
+                        sur la typographie expressive et la
+                        mise en scène de la couleur.</p>
+                </div>
+                <div>
+                    <img src="Assets/projets/projet5.png" alt="">
+                    <h3>Identité visuelle du restaurant L’Ardoise</h3>
+                    <p>Création du logo, de la signalétique et
+                        des menus pour un bistrot lyonnais.
+                        Une identité chaleureuse mêlant
+                        tradition et modernité.</p>
+                </div>
             </div>
         </div>
-
         <h2>Témoignages clients</h2>
         <div>
             <p>Aline a su comprendre
