@@ -1,0 +1,39 @@
+body{
+    margin:0px;
+}
+header{
+
+    h3{
+           display:inline-block;
+           color:white;
+    }
+    nav{
+        a{
+            color:white;
+        }
+    }
+}
+
+
+    .fondNoir{
+        background-color: black;
+        h2{
+            color:white;
+        }
+        h3{
+            color:white;
+        }
+        a{
+            color:white;
+        }
+    
+        .container{
+            .coteGaucheAvantImg{
+                display:flex;
+                flex-direction:column;
+                 h3{
+                    color:white;
+                }
+            }
+        }
+    }
