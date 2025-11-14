@@ -141,10 +141,25 @@ header{
 
     height:200px;
     display:flex;
+    margin:auto;
+    justify-content:center;
     align-items:center;
-    justify-content:space-around;
+    gap:150px;
 
 
+    img{
+        width:6%;
+
+    }
+    #logoNike{
+        width:5%;
+    }
+    #logoApple{
+        width:2%;
+    }
+    #logoAdidas{
+        width:4%;
+    }
 }
 
 .divEtImgContainer{
