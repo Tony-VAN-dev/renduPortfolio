@@ -19,6 +19,12 @@ h2{
 
     nav{
         display:inline;
+        font-size:20px;
+        a{
+            text-decoration:none;
+            border-bottom:solid white 1px;
+            height:20px;
+        }
     }
 
     .containerPresentationLogoEtNav{
