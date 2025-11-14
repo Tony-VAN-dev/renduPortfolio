@@ -2,12 +2,14 @@ body{
     margin:0px;
 }
 
-
+h2{
+    padding-bottom:30px;
+}
 
 .container{
     width:800px;
     margin:auto;
-    
+    padding-block: 60px;
 }
 
 .containerPresentation{
@@ -64,7 +66,7 @@ header{
 
 
     .fondNoir{
-        background-color: black;
+        background-color: rgb(37, 37, 37);
         h2{
             color:white;
         }
@@ -82,6 +84,7 @@ header{
     flex-direction:column;
     justify-content:center;
     align-items:center;
+    padding:10px;
 }
 
 .projetContainer{
@@ -180,18 +183,18 @@ header{
     display:flex;
     flex-direction: column;
     align-items:center;
-
+    padding:10px;
     
 }
 
 .blocsTemoignagesClientsContainer{
     display:flex;  
-    border:solid red;
     flex-wrap:wrap;
+    gap:15px;
 }
 
 .blocTemoignageClient{
-    background-color: rgb(192, 192, 216);
+    background-color: rgb(238, 238, 238);
     width:200px;
     padding:10px;
 
@@ -230,7 +233,66 @@ header{
                 }
             }
     }
+}
 
+.footerContainer{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:5px;
+    .paragrapheFooter{
+        width:480px;
+        /* border:pink solid; */
+        p{
+        color:white;
+        font-size:24px;
+        margin:0px;
+        }
 
+    }
 
+    .coteGaucheEtFormulaireContainer{
+        display:flex;
+        width:1000px;
+        height:auto;
+        /* border:solid blue; */
+        margin:auto;
+        justify-content:center;
+        gap:150px;
+
+        .coteGauche{
+            .logosReseauxSociaux{
+                display:flex;
+                gap:30px;
+            img{
+                width:5%;
+                padding-top:30px;
+            }
+        }
+        }
+    }
+
+    form{
+        display:flex;
+        flex-direction:column;
+        width:350px;
+        gap:10px;
+
+        input{
+          
+            border:none;
+            padding:10px 100px 10px 20px;
+            font-size:17px;
+        }
+        button{
+            background-color:white;
+            width:190px;
+            height:60px;
+            border:none;
+            font-size:20px;
+            margin-top:27px;
+        }
+    }
+    
+    
 }
