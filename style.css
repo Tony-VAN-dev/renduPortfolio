@@ -271,7 +271,7 @@ header{
 
     .coteGaucheEtFormulaireContainer{
         display:flex;
-        width:1600px;
+        width:800px;
         height:auto;
         /* border:solid blue; */
         margin:auto;
