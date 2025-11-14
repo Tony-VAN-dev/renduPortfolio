@@ -185,7 +185,8 @@ header{
 }
 
 .blocsTemoignagesClientsContainer{
-    display:flex;
+    display:flex;  
+    border:solid red;
     flex-wrap:wrap;
 }
 
