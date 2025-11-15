@@ -1,316 +1,359 @@
-body{
-    margin:0px;
+body {
+    margin: 0px;
 }
 
-h2{
-    padding-bottom:30px;
+h2 {
+    padding-bottom: 30px;
 }
 
-.container{
-    width:800px;
-    margin:auto;
+.container {
+    width: 800px;
+    margin: auto;
     padding-block: 60px;
 }
 
-.containerPresentation{
-    width:1150px;
-    margin:auto;   
-    padding:35px 0px 90px 0px;
+.containerPresentation {
+    width: 1150px;
+    margin: auto;
+    padding: 35px 0px 90px 0px;
 
-    nav{
-        display:inline;
-        font-size:20px;
-        a{
-            text-decoration:none;
-            border-bottom:solid white 1px;
-            height:20px;
+    nav {
+        display: inline;
+        font-size: 20px;
+
+        a {
+            text-decoration: none;
+            border-bottom: solid white 1px;
+            height: 20px;
         }
     }
 
-    .containerPresentationLogoEtNav{
-        display:flex;
-        justify-content:space-between;
-        h2{
-            margin:0px;
+    .containerPresentationLogoEtNav {
+        display: flex;
+        justify-content: space-between;
+
+        h2 {
+            margin: 0px;
         }
-        nav{
-            display:flex;
-            gap:30px;
+
+        nav {
+            display: flex;
+            gap: 30px;
         }
     }
 }
 
-header{
+header {
 
-    padding-top:25px;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding-right:50px;
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 50px;
 
-    h3{
-           display:inline-block;
-           color:white;
-           margin:0px;
+    h3 {
+        display: inline-block;
+        color: white;
+        margin: 0px;
     }
-    nav{
-        display:flex;
-        gap:30px;
-        a{
-            font-family:'Epilogue';
-            font-weight:600;
-            font-style:normal;
-            color:white;
-            font-size:17px;
+
+    nav {
+        display: flex;
+        gap: 30px;
+
+        a {
+            font-family: 'Epilogue';
+            font-weight: 600;
+            font-style: normal;
+            color: white;
+            font-size: 17px;
         }
     }
 
-    
+
 }
 
 
-    .fondNoir{
-        background-color: rgb(37, 37, 37);
-        h2{
-            color:white;
-        }
-        h3{
-            color:white;
-        }
-        a{
-            color:white;
-        }
+.fondNoir {
+    background-color: rgb(37, 37, 37);
 
+    h2 {
+        color: white;
     }
 
-.realisationsContainer{
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-    padding:10px;
+    h3 {
+        color: white;
+    }
+
+    a {
+        color: white;
+    }
+
 }
 
-.projetContainer{
-    display:flex;
-    flex-wrap:wrap;
-    gap:20px;
-    justify-content:center;
+.realisationsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
-    .blocProjet{
-        width:200px;
-        img{
-            width:100%;
+}
+
+.projetContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+
+    .blocProjet {
+        width: 500px;
+
+        img {
+            width: 100%;
         }
     }
 }
 
 /*Centre les services*/
-.servicesContainer{
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-
-        /*Aligne les services*/
-    .blocServicesContainer{
-        display:flex;
-        /*Engloble chaque service*/
-        .blocServices{
-            display:flex;
-            flex-direction:column;
-            align-items:center;
-            width:300px;
-            height:300px;
-            img{
-                width:30%
-            }
-            p{
-                width:250px;
-            }
-        }
-    }
-}
-
-
-
-
-
-
-.logosContainer{
-
-    height:200px;
-    display:flex;
-    margin:auto;
-    justify-content:center;
-    align-items:center;
-    gap:150px;
-
-
-    img{
-        width:6%;
-
-    }
-    #logoNike{
-        width:5%;
-    }
-    #logoApple{
-        width:2%;
-    }
-    #logoAdidas{
-        width:4%;
-    }
-}
-
-.divEtImgContainer{
-                display:flex;
-                justify-content:space-between;
-
-                
-                .coteGaucheAvantImg{
-                display:flex;
-                flex-direction:column;
-
-                width:400px;
-                h3{
-                    color:white;
-                }
-                h1{
-                    color:white;
-                }
-                p{
-                    color:white;
-                }
-
-                a.bouton{
-                    display:inline-block;
-                    padding:10px;
-                    background-color:white;
-                    width:160px;
-                    color:black;
-                    text-align:center;
-                    font-family:'Epilogue';
-                    font-weight:600;
-                    font-size:17px;
-                    text-decoration:none;
-                }
-                }
-}
-
-.temoignagesClientsContainer{
-    display:flex;
+.servicesContainer {
+    display: flex;
     flex-direction: column;
-    align-items:center;
-    padding:10px;
-    
+    justify-content: center;
+    align-items: center;
+
+    /*Aligne les services*/
+    .blocServicesContainer {
+        display: flex;
+
+        /*Engloble chaque service*/
+        .blocServices {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 300px;
+            height: 300px;
+
+            img {
+                width: 30%
+            }
+
+            p {
+                width: 250px;
+            }
+        }
+    }
 }
 
-.blocsTemoignagesClientsContainer{
-    display:flex;  
-    flex-wrap:wrap;
-    gap:15px;
+
+
+
+
+
+.logosContainer {
+
+    height: 200px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+
+
+    img {
+        width: 6%;
+
+    }
+
+    #logoNike {
+        width: 5%;
+    }
+
+    #logoApple {
+        width: 2%;
+    }
+
+    #logoAdidas {
+        width: 4%;
+    }
 }
 
-.blocTemoignageClient{
+.divEtImgContainer {
+    display: flex;
+    justify-content: space-between;
+
+
+    .coteGaucheAvantImg {
+        display: flex;
+        flex-direction: column;
+
+        width: 400px;
+
+        h3 {
+            color: white;
+        }
+
+        h1 {
+            color: white;
+        }
+
+        p {
+            color: white;
+        }
+
+        a.bouton {
+            display: inline-block;
+            padding: 10px;
+            background-color: white;
+            width: 160px;
+            color: black;
+            text-align: center;
+            font-family: 'Epilogue';
+            font-weight: 600;
+            font-size: 17px;
+            text-decoration: none;
+        }
+    }
+}
+
+.temoignagesClientsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.blocsTemoignagesClientsContainer {
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.blocTemoignageClient {
     background-color: rgb(238, 238, 238);
-    width:200px;
-    padding:10px;
+    width: 300px;
+    padding: 40px;
 
-    .visageEtDivColonneContainer{
-        display:flex;
+    .avisTexte {
+        width: 270px;
+        font-size: 24px;
     }
-    .visageTemoin{
-        width:35px;
-        padding-right:10px;
-        img{
-            width:100%;
-            border-radius:100%;
-            display:inline;
-    
+
+    .avisTexteEtVisageEtDivColonneContainerContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* align-items:center; */
+        /* background-color:blue; */
     }
+
+    .visageEtDivColonneContainer {
+        display: flex;
+
     }
-    .divPourColonne{
-        display:inline;
-        display:flex;
-        flex-direction:column;
-        width:150px;
-        .typeEntreprise{
-            margin:0px;
+
+    .visageTemoin {
+        width: 60px;
+        padding-right:15px;
+        img {
+            width: 100%;
+            border-radius: 100%;
+            display: inline;
+
+        }
+    }
+
+    .divPourColonne {
+        display: inline;
+        display: flex;
+        flex-direction: column;
+        width: 150px;
+
+        .typeEntreprise {
+            margin: 0px;
+            font-size:20px;
         }
 
-        h3{
-            margin:0px;
+        h3 {
+            margin: 0px;
+            font-size: 24px;
         }
-        
-            .note{
-               
-                display:inline;
-                img{
-                    width:11%;
-                
+
+        .note {
+            display: inline;
+
+            img {
+                width: 11%;
+            }
+        }
+    }
+}
+
+
+
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+
+    .paragrapheFooter {
+        width: 480px;
+
+        /* border:pink solid; */
+        p {
+            color: white;
+            font-size: 24px;
+            margin: 0px;
+        }
+
+    }
+
+    .coteGaucheEtFormulaireContainer {
+        display: flex;
+        width: 800px;
+        height: auto;
+        /* border:solid blue; */
+        margin: auto;
+        justify-content: center;
+        gap: 150px;
+
+        .coteGauche {
+            .logosReseauxSociaux {
+                display: flex;
+                gap: 30px;
+
+                img {
+                    width: 5%;
+                    padding-top: 30px;
                 }
             }
-    }
-}
-
-.footerContainer{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    padding:5px;
-    .paragrapheFooter{
-        width:480px;
-        /* border:pink solid; */
-        p{
-        color:white;
-        font-size:24px;
-        margin:0px;
-        }
-
-    }
-
-    .coteGaucheEtFormulaireContainer{
-        display:flex;
-        width:800px;
-        height:auto;
-        /* border:solid blue; */
-        margin:auto;
-        justify-content:center;
-        gap:150px;
-
-        .coteGauche{
-            .logosReseauxSociaux{
-                display:flex;
-                gap:30px;
-            img{
-                width:5%;
-                padding-top:30px;
-            }
-        }
         }
     }
 
-    form{
-        display:flex;
-        flex-direction:column;
-        width:350px;
-        gap:10px;
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+        gap: 10px;
 
-        input{
-          
-            border:none;
-            padding:10px 100px 10px 20px;
-            font-size:17px;
+        input {
+
+            border: none;
+            padding: 10px 100px 10px 20px;
+            font-size: 17px;
         }
-        button{
-            background-color:white;
-            width:190px;
-            height:60px;
-            border:none;
-            font-size:20px;
-            margin-top:27px;
+
+        button {
+            background-color: white;
+            width: 190px;
+            height: 60px;
+            border: none;
+            font-size: 20px;
+            margin-top: 27px;
         }
     }
-    
-    
+
+
 }
